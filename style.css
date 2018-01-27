@@ -1,0 +1,227 @@
+/*Prijava in registracija */
+.naslov{
+  font-size: 100px;
+  text-align: center;
+  font-family: 'VT323', monospace;
+  color: #0184b7;
+}
+
+.prijavaForma{
+  margin-left: 45%;
+  width: 10%;
+  height: 4%;
+  font-size: 20px;
+}
+
+#uprIme{
+  background-color: #9fe0f9;
+  color:black;
+}
+
+#uprIme:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0px 1000px #9fe0f9 inset;
+}
+
+#geslo:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0px 1000px #9fe0f9 inset;
+}
+
+#email:-webkit-autofill{
+  -webkit-box-shadow: 0 0 0px 1000px #9fe0f9 inset;
+}
+
+#geslo{
+  margin-top: 1%;
+  color: black;
+}
+
+#email{
+  margin-top: 1%;
+  background-color:#9fe0f9;
+  color: black; 
+}
+
+.prijavniGumb{
+  margin-left: 45%;
+  width: 10%;
+  height: 3%;
+  margin-top: 1%;
+  border-radius: 4px;
+  border: 2px solid #007dad;
+  font-size: 16px;
+  background-color:#d1eef9;
+}
+
+.prijavniGumb:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.novUporabnik{
+  margin-left: 43%;
+
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+.g-recaptcha{
+  margin-top: 1%;
+  margin-left: 42%;
+
+
+
+/* Stavnica.php */
+
+
+
+}
+#tekme{
+  margin-top: 2%;
+  width: 65%;
+}
+
+#tekme td{
+  border: 1px solid black;
+  text-align: center;
+}
+
+#tekme th{
+  border: 1px solid black;
+}
+
+button{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+  /* Listek s pari, na desni strani */
+
+
+
+#stavniListek{
+  width: 23%;
+  margin-left: 70%;
+  background-color: #0184b7;
+  position: fixed;
+  top: 1em;
+  border: 2px solid black;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.listki{
+  font-size: 17px;
+  background-color: #d1eef9;
+}
+
+
+.tekstListek{
+  margin: 0 auto 0;
+  font-size: 15px;
+}
+/*Znesek, ki ga bomo vložili */
+#noga{
+  position: absolute;
+  right: 20%;
+  height: 0%; 
+  width: 50%;
+  bottom: -50;
+}
+
+#vplacilo{
+  width: 36%;
+  font-size: 19px;
+  border-radius: 4px;
+  border: 2px solid #007dad;
+  font-size: 16px;
+  background-color:#d1eef9;
+}
+
+#znesek{
+  width: 30%;
+  font-size: 19px;
+  border-radius: 4px;
+  border: 2px solid #007dad;
+  font-size: 16px;
+  background-color:#d1eef9;
+}
+
+#vplacilo:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#znesek:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+[id^=x]{ /* elementi ki se začnejo na x */
+  height: 2%;
+  width: 5%;
+  text-align: center;
+}
+
+.brisanje{
+  float: right;
+  background-color: rgba(255,255,255,0); /* Opacity na 0 */
+  border: 0px;
+  font-size: 17px;
+}
+
+/*PROFIL*/
+.liveListek{
+  border: 1px solid black;
+  width: 50%;
+}
+
+.liveListek th{
+  border: 1px solid black;
+  width: 20%;
+}
+
+.liveListek td{
+  border: 1px solid black;
+  width: 20%;
+}
+
+.prav{
+  width: 30%;
+}
+
+.narobe{
+  width: 30%;
+}
+
+.neznano{
+  width: 30%;
+}
+
+.liveListek img{
+  margin-left: 30%;
+}
+
+.stariListki{
+  border: 1px solid black;
+  width: 50%;
+}
+
+.stariListki th{
+  border: 1px solid black;
+  width: 20%;
+}
+
+.stariListki td{
+  border: 1px solid black;
+  width: 20%;
+}
+
+#dobitek{
+  color: green;
+}
+
+#napacno{
+  color: red;
+}
